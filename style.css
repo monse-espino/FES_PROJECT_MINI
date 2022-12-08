@@ -65,6 +65,10 @@ li {
     justify-content: center;
 }
 
+#about, #discord, #contact {
+    padding: 48px 0;
+}
+
 /*
 
 ABOUT
@@ -72,7 +76,6 @@ ABOUT
 */
 
 #about {
-    padding: 48px;
     background-color: #f8ffdc; 
 }
 
@@ -82,7 +85,7 @@ h2 {
     margin-bottom: 24px;
 }
 
-.about__description {
+.section__description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,8 +105,18 @@ img {
     padding: 0 24px;
 }
 
-.about__description--para {
+.section__description--para {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/*
+
+DISCORD
+
+*/
+
+#discord {
+    background-color: #cafdff;
 }
