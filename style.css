@@ -60,6 +60,7 @@ li {
 .row {
     width: 100%;
     max-width: 1300;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,4 +144,30 @@ input, textarea {
     margin-bottom: 24px;
     font-size: 20px;
     padding: 6px 12px;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links--list {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0 16px;
 }
