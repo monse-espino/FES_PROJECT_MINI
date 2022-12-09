@@ -198,4 +198,9 @@ footer {
         text-align: center;
         font-size: 28px;
     }
+
+    ul {
+        display: none;
+    }
+    
 }
