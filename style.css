@@ -202,5 +202,21 @@ footer {
     ul {
         display: none;
     }
-    
+
+    .section__description {
+        flex-direction: column;
+    }
+
+    .about__description--wrapper {
+        width: 100%;
+    }
+
+    .about__img--wrapper {
+        width: 100%;
+    }
+
+    #discord .section__description {
+        flex-direction: column-reverse;
+    }
+
 }
